@@ -1,4 +1,5 @@
 $("#debug").click(function() {
+    FB.AppEvents.logEvent("debugClicked");
     var token = $("#token").val();
     var id = $("#id").val();
 
